@@ -17,7 +17,7 @@ const EventoCheckbox: React.FC<{ evento: IEvento }> = ({ evento }) => {
 
       return [
         ...listaAntiga.slice(0, indice),
-        evento,
+        eventoAlterado,
         ...listaAntiga.slice(indice + 1)
       ];
     });
